@@ -5,13 +5,13 @@ function altPalavra() {
 }
 
 function aumPalvra() {
-    tamanho += 0.5;
+    tamanho = tamanho + 0.5;
     altPalavra();
 }
 
 function dimPalavra() {
     if (tamanho > 0) {
-    tamanho -= 0.5;
+    tamanho = tamanho - 0.5;
     altPalavra();
     }
 }
